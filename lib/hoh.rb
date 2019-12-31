@@ -4,15 +4,15 @@
 #
 # The tests will guide your construction.
 #
- PORTION_1 = {
-   label: "Kingdom",
-   sub_category: {
-     label: "Phylum",
-     sub_category: {
-       label: "Class"
-     }
-   }
- }
+# PORTION_1 = {
+#   label: "Kingdom",
+#   sub_category: {
+#     label: "Phylum",
+#     sub_category: {
+#       label: "Class"
+#     }
+#   }
+# }
 # 
 # PORTION_2 = {
 #   label: "Order"
@@ -43,7 +43,13 @@ def naming_system
   # HoH all the way to Species!
   
   life = {
-    PORTION_1
+    label: "Kingdom",
+    sub_category: {
+      label: "Phylum",
+      sub_category: {
+        label: "Class"    
+      }
+    }
   }
 
 end
