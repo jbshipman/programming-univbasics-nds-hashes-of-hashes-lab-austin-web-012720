@@ -43,7 +43,7 @@ def naming_system
   # HoH all the way to Species!
   
   life = {
-    
+    PORTION_1
   }
 
 end
